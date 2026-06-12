@@ -12,3 +12,11 @@
 ### 1. 环境依赖 (Ubuntu/Codespace)
 ```bash
 sudo apt-get update && sudo apt-get install -y libgdal-dev gdal-bin g++
+
+### 2. 编译 (Ubuntu/Codespace)
+```bash
+g++ -O3 mountain_analysis.cpp $(gdal-config --cflags) -o mountain_analysis -lgdal
+
+### 2. 运行 (Ubuntu/Codespace)
+```bash
+./mountain_analysis
