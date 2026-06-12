@@ -1,0 +1,15 @@
+# 忽略编译生成的二进制文件
+mountain_analysis
+*.o
+*.out
+
+# 忽略大型地理数据文件（避免GitHub超限报错）
+*.tif
+*.tiff
+*.zip
+*.tar.gz
+
+# 忽略Python虚拟环境与缓存
+__pycache__/
+.pytest_cache/
+.vscode/
