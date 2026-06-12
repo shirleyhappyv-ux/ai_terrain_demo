@@ -17,6 +17,6 @@ sudo apt-get update && sudo apt-get install -y libgdal-dev gdal-bin g++
 ```bash
 g++ -O3 mountain_analysis.cpp $(gdal-config --cflags) -o mountain_analysis -lgdal
 
-### 2. 运行 (Ubuntu/Codespace)
+### 3. 运行 (Ubuntu/Codespace)
 ```bash
 ./mountain_analysis
